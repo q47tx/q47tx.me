@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Cantarell-Bold;
+    src: url(fonts/Cantarell-Bold.ttf);
+}
+@media screen and (max-width:600px) {
+    section, aside {
+        width: 100%;
+    }
+}
+body {
+    background-color: #242424;
+    color: white;
+    font-family: Cantarell-Bold;
+    margin: 0;
+}
+header {
+    background-color: #2a2a2a;
+    text-align: center;
+    padding: 1px;
+}
+section {
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+aside {
+    width: 20%;
+    padding: 10px;
+}
+footer {
+    position: absolute;
+    display: block;
+    clear: both;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #272727;
+}
+h1, h2, h3, h4, h5, a {
+    color: #78aeed;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    border-radius: 15px;
+}
