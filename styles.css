@@ -6,8 +6,11 @@
     src: url(fonts/Cantarell-Bold.ttf);
 }
 @media screen and (max-width:600px) {
-    section, aside {
+    section {
         width: 100%;
+    }
+    aside {
+        display: none;
     }
 }
 body {
